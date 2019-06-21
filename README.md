@@ -1,6 +1,7 @@
 # AutoCode
 Auto coding by AI
-Neural Network Autocoder for SOII
+
+# Neural Network Autocoder for SOII
 Contains the code used to train a close relative of the neural network autocoder described in Deep neural networks for worker injury autocoding. Compared to the model described in the paper, examples/big_single_seq_180_lr4e-4.py is significantly faster with similar performance, made possible by more efficient batching due to the concatenation of all text inputs.
 
 Requirements
